@@ -100,7 +100,7 @@ except IOError:
     kok.close()
     print(key)
 
-a=requests.get("https://github.com/atalamin/Approve.txt/blob/main/Alamin.txt").text
+a=requests.get("https://github.com/atalamin/Approval.txt/blob/main/Approval.txt").text
 b=str(a)
 key1=open("/storage/emulated/0/android8.txt",'r').read()
 key2=str(key1)  
